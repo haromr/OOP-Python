@@ -1,5 +1,6 @@
-# OPP-Python
-OPP Python tutorials
+# Object Oriented Python
+
+OOP Python tutorials
 
 ** Tutoriales de Python Orientado a Objetos
 
