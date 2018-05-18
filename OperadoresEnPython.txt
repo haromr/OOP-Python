@@ -1,0 +1,22 @@
+
+# Operadores Aritmeticos
+Operador	            Descripción	        Ejemplo
+
+											Suma	              r = 3 + 2 # r es 5
+											Resta	              r = 4 – 7 # r es -3
+											Negación	          r = -7 # r es -7
+*											Multiplicación	    r = 2 * 6 # r es 12
+**										Exponente	        	r = 2 ** 6 # r es 64
+/											División						r = 3.5 / 2 # r es 1.75
+//										División entera	  	r = 3.5 // 2 # r es 1.0
+%											Módulo							r = 7 % 2 # r es 1
+
+# Operadores Relacionales
+Operador			Descripción										Ejemplo
+
+==						¿son iguales a y b?						r = 5 == 3 # r es False
+!=						¿son distintos a y b?					r = 5 != 3 # r es True
+<							¿es a menor que b?						r = 5 < 3 # r es False
+>							¿es a mayor que b?						r = 5 > 3 # r es True
+<=						¿es a menor o igual que b?		r = 5 <= 5 # r es True
+>=						¿es a mayor o igual que b?		r = 5 >= 3 # r es True
