@@ -4,7 +4,7 @@ OOP Python tutorials
 
 ** Tutoriales de Python Orientado a Objetos
 
-*** Indice
+*** INDEX
 
 1 Operadores
 2 Tipos de Variables en Python
