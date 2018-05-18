@@ -1,5 +1,5 @@
 print("""
-En Python Existen 5 tipos simples de variables
+En Python Existen algunos tipos simples de variables
 -----------------------------------------------
 int
 string
