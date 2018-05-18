@@ -1,4 +1,4 @@
-# OPP-Python-
+# OPP-Python
 OPP Python tutorials
 
 ** Tutoriales de Python Orientado a Objetos
