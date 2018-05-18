@@ -1,9 +1,9 @@
 # OPP-Python-
 OPP Python tutorials
 
-# Tutoriales de Python Orientado a Objetos
+** Tutoriales de Python Orientado a Objetos
 
-# Indice
+*** Indice
 
-# Operadores
-# Tipos de Variables en Python
+1 Operadores
+2 Tipos de Variables en Python
