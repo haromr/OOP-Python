@@ -4,6 +4,7 @@ En Python Existen 5 tipos simples de variables
 int
 string
 Boolean
+Set
 List
 Dictionary
 """)
@@ -53,8 +54,9 @@ entero = 027
 entero =  0x17
 
 # String
-Cadenas=""" Las cadenas no son más que texto encerrado entre comillas simples (‘cadena’) o dobles (“cadena”). 
-Dentro de las comillas se pueden añadir caracteres especiales escapándolos con ‘\’, como ‘\n’, el carácter de nueva línea, o ‘\t’, el de tabulación."""
+""" Las cadenas no son más que texto encerrado entre comillas simples (‘cadena’) o dobles (“cadena”). 
+Dentro de las comillas se pueden añadir caracteres especiales escapándolos con ‘\’, como ‘\n’, el carácter de nueva línea, o ‘\t’, el de tabulación.
+"""
 
 # Las cadenas también admiten operadores como la suma (concatenación de cadenas) y la multiplicación.
 
@@ -111,6 +113,77 @@ print("Tamano de cadena '", nombre_completo, "' es:", len(nombre_completo))
 # acceder a rango de la cadena
 print(nombre_completo[3:13])
 
+# Bool
+"""
+el tipo booleano sólo puede tener dos valores: True (cierto) y False (falso). 
+Estos valores son especialmente importantes para las expresiones condicionales y los bucles, como veremos más adelante.
+"""
+
+Verdadero = True
+Falso = False
+
+aT = True
+print("El valor es Verdadero:", aT, ", el cual es de tipo", type(aT), "\n")
+aF = False
+print("El valor es Falso:", aF, ", el cual es de tipo", type(aF))
+
+# set
+"""
+Un conjunto, es una colección no ordenada y sin elementos repetidos.  
+Los usos básicos de éstos incluyen verificación de pertenencia y eliminación de entradas duplicadas.
+"""
+
+comida = {'arroz', 'habichuelas', 'arroz', 'carne', 'carne', 'queso'}
+print(comida)
+print(type(plato))
+
+bebida = {'refresco', 'malta', 'jugo', 'cafe'}
+print(bebida)
+print(type(bebida))
+
+# notese que los datos duplicados no se muestran 
+
+# establece un conjunto a una variable
+para_comer = set(comida)
+print(para_comer)
+
+para_tomar = set(bebida)
+print(para_tomar)
+
+# Listas
+"""
+La lista en Python son variables que almacenan arrays, internamente cada posición puede ser un tipo de datos distinto.
+"""
+
+a = ['pan', 'huevos', 100, 1234]
+print(a)
+
+l = [2, "tres", True, ["uno", 10]]
+print(l)
+
+# Accesar a un elemento especifico
+l2 = l[1]
+print(l2)
+
+# Accesar a un elemento dentro de una lista anidada
+l3 = l[3][0]
+print(l3)
+
+# establecer nuevo valor de un elemento de lista
+l[1] = 4
+print(l)
+l[1] = "tres"
+
+# Obtener un rango de elemento especifico
+l3 = l[0:3]
+print(l3)
+
+# Obtener un rango con saltos de elementos especificos
+l4 = l[0:3:2]
+print(l4)
+
+l5 = l[1::2]
+print(l5)
 
 
 
