@@ -185,6 +185,55 @@ print(l4)
 l5 = l[1::2]
 print(l5)
 
+#tuple
+"""
+Una tupla es una lista inmutable. Una tupla no puede modificarse de ningún modo después de su creación
+"""
 
+""" OJO
+Una lista no es lo mismo que una tupla. 
+Ambas son un conjunto ordenado de valores, en donde este último puede ser cualquier objeto: un número, una cadena, una función, una clase, una instancia, etc. 
+La diferencia es que las listas presentan una serie de funciones adicionales que permiten un amplio manejo de los valores que contienen. Basándonos en esta definición, puede decirse que las listas son dinámicas, mientras que las tuplas son estáticas.
+"""
+# Ejemplo simple de tupla
+tupla = 12345, 54321, 'hola!'
 
+# Ejemplo de tuplas anidadas
+otra = tupla, (1, 2, 3, 4, 5)
 
+# operación asinacion de valores de una tupla en variables
+x, y, z = tupla
+
+conexion_bd = "127.0.0.1","root","123456","nomina",
+print("Conexion tipica:", conexion_bd)
+
+# Dictionary 
+"""
+Un Diccionario es una estructura de datos y un tipo de dato en Python con características especiales que nos permite almacenar cualquier tipo de valor como enteros, cadenas, listas e incluso otras funciones. 
+Estos diccionarios nos permiten además identificar cada elemento por una clave (Key).
+"""
+
+diccionario = {'nombre' : 'Harom', 'edad' : 28, 'cursos': ['Python','OracleSQL','Security+'] }
+
+print(diccionario['nombre']) #Harpm
+print(diccionario['edad']#28)
+print(diccionario['cursos']) #['Python','OracleSQL','Security+']
+      
+datos_basicos = {
+    "nombres":"Harom Francisco",
+    "apellidos":"Ramos Rivera",
+    "cedula":"14522590",
+    "fecha_nacimiento":"03121980",
+    "lugar_nacimiento":"La Romana, Republica Dominicana",
+    "nacionalidad":"Dominicana",
+    "estado_civil":"Complicado"
+}
+      
+print("\nClaves del diccionario:", datos_basicos.keys())
+print("\nValores del diccionario:", datos_basicos.values())
+print("\nElementos del diccionario:", datos_basicos.items())      
+      
+print("Cedula de identidad:", datos_basicos['cedula'])
+print("Nombre completo: " + datos_basicos['nombres'] + " " + datos_basicos['apellidos'])   
+      
+      
