@@ -236,4 +236,85 @@ print("\nElementos del diccionario:", datos_basicos.items())
 print("Cedula de identidad:", datos_basicos['cedula'])
 print("Nombre completo: " + datos_basicos['nombres'] + " " + datos_basicos['apellidos'])   
       
+
+# ejercicio 1
+# Pedir numero de palabras y crear lista
+
+print('Crear lista de palabras')
+numero = int(input("Cuantas palabras ?"))
+lista = []
+
+for i in range(numero):
+	palabras = input(': ')
+	lista.append(palabras)
+
+print(lista)	
+
+# ejercicio 2
+# Buscar repeticiones en lista
+
+count = 0
+print('Buscar elementos repetidos')
+lista = ['Juan', 'Pedro', 2, True, 'Juan']
+
+buscar = input('Digite elemento a buscar: ')
+for i in lista:
+	if i == buscar:
+		count += 1
+print('Elemento elemento', buscar, 'se repite', count, ' veces')
+print(lista.count(buscar))	
+
+# ejercicio 3
+# Reemplazar palabras
+
+print('Reemplazar palabras')
+numero = input("Introduzca palabra ")
+lista = []
+
+for i in range(2):
+	palabras = input(': ')
+	lista.append(palabras)
+
+print('Original: ', lista)
+lista.reverse() # no se puede imprimir directamente
+print('Invertido ' lista)
+
+# Ejercicio 4
+# Eliminar palabra
+
+print('Eliminar elemento')
+lista = ['Juan', 'Pedro', 2, True, 'Juan']
+count = 0
+
+buscar = input('Digite elemento a eliminar: ')
+for i in lista:
+	if i == buscar:
+		count += 1
+		lista.remove(i)
+print('Elemento', buscar, 'fue eliminado', count, 'veces')
+print(lista)	
+
+
+# Ejercicio 5
+# Unir 2 listas
+
+lista = ['Harom', 'Peter']
+lista2 = [1, 2, 3]
+
+print('Lista 1', lista, '\n Lista 2:', lista2)
+lista.extend(lista2)
+print('Lista: ', lista)
+
+
+
+
+
+
+
+
+
+
+
+
+      
       
